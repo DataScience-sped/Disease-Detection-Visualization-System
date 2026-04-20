@@ -50,10 +50,10 @@
 <body>
     <h1>Medical Analysis</h1>
     <div class="container">
-        <img src="images/nursing home.jpg" alt="Nursing Home" title="Nursing Home">
-        <img src="images/hospital.jpg" alt="Hospital" title="Hospital">
-        <img src="images/disease.png" alt="Disease" title="Disease">
-        <img src="images/health.png" alt="Health" title="Health">
+        <img src="{{ url_for('static', filename='images/nursing_home.jpg') }}" alt="Nursing Home">
+        <img src="{{ url_for('static', filename='images/hospital.jpg') }}" alt="Hospital">
+        <img src="{{ url_for('static', filename='images/disease.png') }}" alt="Disease">
+        <img src="{{ url_for('static', filename='images/health.png') }}" alt="Health">
     </div>
     <a class="link" href="disease_analysis_map.html">View Disease Analysis Map</a>
 </body>
