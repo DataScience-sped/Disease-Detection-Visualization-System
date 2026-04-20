@@ -37,7 +37,7 @@ The system combines **Python (Folium)** for map generation and **HTML/CSS** for 
 ```
 
 ## ⚙️ How It Works
-1. The Python script (`disease.py`) creates datasets for:
+1. The Python script (`app.py`) creates datasets for:
    * Locations (Hospitals/Nursing Homes)
    * Diseases with affected counts
 2. Using **Folium**:
@@ -57,7 +57,7 @@ The system combines **Python (Folium)** for map generation and **HTML/CSS** for 
    ```
 2. Run the Python file:
    ```bash
-   python disease.py
+   python app.py
    ```
 3. Open:
    * `index.html` → Home page
