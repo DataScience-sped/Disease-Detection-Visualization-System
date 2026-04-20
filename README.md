@@ -31,7 +31,7 @@ The system combines **Python (Folium)** for map generation and **HTML/CSS** for 
 ├── static/
     ├── images/                       # Image assets
     │   ├── hospital.jpg
-    │   ├── nursing home.jpg
+    │   ├── nursing_home.jpg
     │   ├── disease.png
     │   └── health.png
 ```
